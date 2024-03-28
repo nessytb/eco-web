@@ -1445,6 +1445,16 @@ display: none;
     top: 3.7%;
     right: 9%;
   }
+.search hr{
+    border-radius: 40%;
+    position: absolute;
+    background-color: white;
+    z-index: 1111;
+    top: 172px;
+    left: 320px; 
+    width: 382px;
+    height: 2px;
+}
 .fa-cart-shopping{
   color: black;
 }
