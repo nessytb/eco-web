@@ -1077,7 +1077,7 @@ img:hover{
   width: 205px;
   position: absolute;
   top: 2300px;
-  left: 73%;
+  left: 53%;
   z-index: -1000;
 }
 .star2-background{
@@ -1085,7 +1085,7 @@ img:hover{
   width: 205px;
   position: absolute;
   top: 770px;
-  left: 73%;
+  left: 53%;
   z-index: -1000;
 }
 .circle-background{
@@ -1093,7 +1093,7 @@ img:hover{
   width: 205px;
   position: absolute;
   top: 3170px;
-  left: 60%;
+  left: 6%;
   z-index: -1000;
 }
 .back-to-top{
