@@ -272,7 +272,7 @@ a:hover{
   width: 400px;
   z-index: 10000;
   background-color:  rgb(167, 150, 150);
-  height: 100vh;
+  height: 100%;
   transition: 0.5s;
 }
 .card h1{
