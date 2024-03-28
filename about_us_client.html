@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <script src="cart.js"></script>
+  <script src="https://kit.fontawesome.com/088fc2cb61.js" crossorigin="anonymous"></script>
+  <title>ForShop | About Us</title>
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <div class="menu">
+      <a class="loogo" href="home.html">ForShop</a>
+      <div class="circle"></div>
+      <div class="search-container">
+      </div>
+      <div class="nav-links">
+        <a class="home homme" href="home.html">Home</a>
+        <a class="home" href="about_us.html">About</a>
+        <a class="home" onclick="pages()">Pages</a>
+        <a class="home" href="login.html">Login</a>
+
+      </div>
+
+    </div>      
+    <div id="thepages" class="thepages">
+        <a class="page" href="jewelery&accessories.html">Jewelry</a>
+        <a class="page" href="clothes.html">Clothes</a>
+        <a class="page" href="sports.html">Sport</a>
+        <a class="page" href="electronics.html">Electronic</a>
+    </div>
+  </nav>
+
+   <div class="img1">
+<p>Our site aims to offer you total convenience in your shopping and provides you, dear customers, with all your requirements and needs from all categories of beauty&health<strong> clothing,
+  computers,
+  Electronics
+  jewelery&accessories,
+  Phones
+  Sports,</strong>
+  as well as imaginary and unexpected offers and discounts, and we provide you with high-quality customer service. For inquiries and inquiries, please write to us on our websites below</p> </div >
+        <img src="images/c1.png">
+        <footer class="footer">
+          <div class="footer-column">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </footer>
+   <script>
+    function pages(){
+  const page = document.getElementById('thepages');
+  if (page.style.display == 'none') {
+    page.style.display = 'flex';
+    page.classList.add("thepages");
+  }
+  else{
+    page.style.display = 'none';
+  }
+}
+function toggleSearch() {
+  var navbar = document.getElementById('navbar');
+  var searchBar = document.getElementById('searchbar');
+
+  if (navbar.style.display !== 'none') {
+      navbar.style.display = 'none';
+      searchBar.style.display = 'flex';
+  } else {
+      navbar.style.display = 'flex';
+      searchBar.style.display = 'none';
+  }
+}
+</script> 
+</body>
+</html>

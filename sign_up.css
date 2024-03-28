@@ -1,0 +1,376 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.thepages{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    row-gap: 28px;
+    font-weight: bold;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(220, 220, 211);
+    top: 11%;
+    right: 34%;
+    z-index: 1000;
+  }
+  
+.page{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+.loogo{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-style: oblique;
+    position: absolute;
+    left: 52px;
+    top: 45px;
+  }
+  .circle {
+    top: 49px;
+    position: absolute;
+    left: 190px;
+    width: 32px; 
+    height: 32px;
+    background-color: orangered;
+    border-radius: 50%; 
+  }
+  .nav-links{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    gap: 22%;
+    font-family: sans-serif;
+    left: 49%;
+    font-size: 21px;
+  }
+label {
+    display: block;
+    margin-bottom: px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    display: block;
+    width: 620px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+button[type="submit"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 122px;
+}
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+button[type="submit"] a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.toggle button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+  .toggle button.active {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+
+.pic{
+    position: relative;
+    height: 900px;
+    width: 100%;
+    
+}
+.home{
+  text-decoration: none;
+  color: white;
+
+}
+
+.logo img {
+    position: absolute;
+  height: 80px;
+  width: auto;
+  top: 10px;
+  left: 40px;
+}
+.login{
+    border: 2px solid white;
+    padding: 12px;
+}
+.icons{
+    cursor: pointer;
+    position: absolute;
+    top: 336px;
+    left: 393px;
+}
+.fa-envelope{
+    position: absolute;
+    top: 264px;
+    right: 100px;
+}
+
+.fa-user{
+    position: absolute;
+    top: 164px;
+    right: 100px;
+}
+.fa-eye-slash {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+.fa-eye {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  } 
+  input[type="password"]::-ms-reveal,
+  input[type="password"]::-ms-clear,
+  input[type="password"]::-webkit-contacts-auto-fill-button,
+  input[type="password"]::-webkit-credentials-auto-fill-button,
+  input[type="password"]::-webkit-inner-spin-button,
+  input[type="password"]::-webkit-outer-spin-button {
+      display: none;
+  }
+  
+  
+hr{
+    width: 90%;
+   border: 1px solid black;
+   margin-left: 0px;
+}
+.pass{
+    margin-top: 33px;
+}
+.check{
+    position: absolute;
+    top: 429px;
+    background-color: transparent;
+}
+.new{
+    margin-top: 33px;
+    margin-left: 59px;
+}
+.neww{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.remember{
+    position: absolute;
+    top: 415px;
+    left: 77px;
+}
+.fp{
+    position: absolute;
+    top: 288px;
+    left: 280px;
+}
+.titr{
+    margin-bottom: 53px;
+    margin-left: -55px;
+
+}
+.container{
+    position: absolute;
+    top: 137px;
+    left: 30%;
+    border: 2px solid white;
+    padding-top: 52px;
+    padding-left: 52px;
+    width: 697px;
+    height: 633px;
+    border-radius: 23px;
+    backdrop-filter: blur(10px);
+
+}
+
+#parag2{
+    display: none;
+    color: red;
+}
+.secondnav{
+    display: none;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1210px) {
+.navbar{
+    display: block;
+}
+    .container{
+        position: absolute;
+        top: 159px;
+        left: 20%;
+        border: 2px solid white;
+        padding: 52px;
+        padding-right: 0;
+        height: 608px;
+        width: 609px;
+        border-radius: 23px;
+        backdrop-filter: blur(11px);
+    
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .fp{
+        position: absolute;
+        top: 318px;
+        left: 410px;
+    }
+    .thepages{
+        padding: 30px;
+        right: 358px;
+      }
+    .container{
+        position: absolute;
+        top: 159px;
+        left: 15%;
+        border: 1px solid white;
+        padding: 19px;
+        padding-left: 32px;
+        padding-right: 0;
+        padding-bottom: 92px;
+        height: 599px;
+        width: 569px;
+        border-radius: 23px;
+        backdrop-filter: blur(11px);
+    
+    }
+    .navbar{
+        display: none;
+    }
+    .loogoo{
+        position: absolute;
+        top: 33px;
+        left: 22px;
+        text-decoration: none;
+        color: white;
+        font-size: 27px;
+        display: block;
+      }
+      .circlee{
+        display: block;
+        top: 35px;
+        position: absolute;
+        left: 133px;
+        width: 27px; 
+        height: 27px;
+        background-color: orangered; 
+        border-radius: 50%; 
+    }
+      .fa-bars-staggered{
+        position: absolute;
+        top: 33px;
+        right: 4%;
+        visibility: visible;
+        color: white;
+        font-size: 25px;
+      }
+      .secondnav{
+        display: block;
+      }
+      .liens{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        row-gap: 28px;
+        font-weight: bold;
+        padding-left: 155px;
+        padding-right: 155px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgb(220, 220, 211);
+        top: 7%;
+        right: 5%;
+        font-size: 22px;
+        z-index: 1000;
+      }
+      .hide{
+        display: none;
+      }
+      .lien{
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+      }
+      .fa-envelope{
+        position: absolute;
+        top: 240px;
+        right: 75px;
+    }
+    .fa-user{
+        position: absolute;
+        top: 144px;
+        right: 75px;
+    }
+    .fa-eye{
+        margin-right: -29px;
+    }
+    .fa-eye-slash{       
+        margin-right: -29px;
+    }
+}
+@media screen and (max-width: 700px) {
+.container{
+    position: absolute;
+    top: 159px;
+    left: 5%;
+    border: 1px solid white;
+    padding: 19px;
+    padding-left: 32px;
+    padding-right: 0;
+    padding-bottom: 92px;
+    height: 529px;
+    width: 569px;
+    border-radius: 23px;
+    backdrop-filter: blur(11px);
+
+}
+}

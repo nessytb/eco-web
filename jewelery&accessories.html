@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ForShop | jewelery</title>
+  <link rel="stylesheet" href="jewelry.css">
+  <link rel="stylesheet" href="footer.css">
+  <script src="https://kit.fontawesome.com/4029073a58.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="card">
+    <h1>card</h1>
+    <ul class="listCard"></ul>
+    <a href="checkout.html" class="acheter">Buy now</a>
+    <div class="checkout">
+      <div class="total">0</div>
+      <div class="closeShopping">Close</div>
+    </div>
+   </div>
+  <img id="imag" class="s1s" src="images/hande3.jpg" alt="sport picture">
+
+  <div class="divv">
+      <p id="titre" class="sportparag">jewelry</p>
+      <div>
+        <p id="phrase" class="sportparag2">princess cut diamond encrusted engagement</p>
+        <p id="para2" class="param2">bridal set in 14k white gold</p>
+      </div>
+  </div>
+ 
+<div class="categories">
+  <div class="col">
+  <img class="" src="images/earing.jpg" alt="">
+  <p class="earing">Earrings</p>
+  
+  </div>
+  <div class="col">
+  <img class="" src="images/diamondwatch.jpg" alt="">
+  <p class="watches">Watches</p>
+  
+  </div>
+  <div class="col">
+  <img class="" src="images/ring.jpg" alt="">
+  <p class="rings">Rings</p>
+  
+  </div>
+  <div class="col">
+  <img class="" src="images/neckless.jpg" alt="">
+  <p class="necklace">necklaces</p>
+   </div>
+</div>
+
+<div class="featuredproduct">
+  <div>
+    <img class="featuredimage" src="images/featuredjewelry.jpg" alt="featured product">
+  </div>
+  <div>
+    <p id="featuredfroduct" class="featuredtitle">Featured Product</p>
+    <p class="featuredparagraphe">Offering various types of jewelry, we let you put a personal touch on them. This quality collection is handcrafted in USA.</p>
+    <p class="productprice">31.00 $</p>
+    <button class="purchase">PURCHASE</button>
+  </div>
+</div>
+
+<p class="trendy">TRENDY PRODUCTS</p>
+<div class="wrapper">
+  <div id="search-container">
+      <input
+       type="search"
+       id="search-input"
+       placeholder="search something"
+       />
+       <button id="search">Search</button>
+  </div>
+
+  <div id="buttons">
+      <button class="button-value" onclick="filterProduct('All')">All</button>
+      <button class="button-value" onclick="filterProduct('Earrings')">Earrings</button>
+      <button class="button-value" onclick="filterProduct('necklace')">necklaces</button>
+      <button class="button-value" onclick="filterProduct('Rings')">Rings</button>
+      <button class="button-value" onclick="filterProduct('Bracelet')">Bracelets</button>
+
+  </div>
+  <div id="products"></div>
+</div>
+
+<nav id="navbar" class="navbar">
+  <div class="menu">
+    <a class="loogo" href="home.html">ForShop</a>
+    <div class="circle"></div>
+    <div class="nav-links">
+      <a class="home homme" href="home.html">Home</a>
+      <a class="home" href="about_us.html">About</a>
+      <a class="home" onclick="pages()">Pages</a>
+      <a class="home" href="login.html">Login</a>
+      <div class="navbar-links">
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="cartt" ><i class="fa-solid fa-cart-shopping"></i><p class="count">0</p></div>
+<div id="thepages" class="thepages">
+  <a class="page" href="jewelery&accessories.html">Jewelry</a>
+  <a class="page" href="clothes.html">Clothes</a>
+  <a class="page" href="sports.html">Sports</a>
+  <a class="page" href="electronics.html">Electronics</a>
+</div>
+<div class="search">
+  <i id="fa-magnifying-glass" class="fa-solid fa-magnifying-glass"></i>
+  <input type="search" id="searchinput" class="search-icon" placeholder="EX: TRENDY PRODUCTS" /><hr>
+  <p class="jewelrytitle">jewelry</p>
+</div>
+
+<nav id="secondnav" class="secondnav">
+  <a class="loogoo" href="home.html">ForShop</a>
+  <div class="circlee"></div>
+  <i onclick="liens()" class="fa-solid fa-bars-staggered"></i>
+  <div id="liens" class="liens hide">
+    <a class="lien" href="home.html">Home</a>
+    <a class="lien" href="about_us.html">About</a>
+    <a class="lien" onclick="pages()">Pages</a>
+    <a class="lien" href="login.html">Login</a>
+  </div>
+</nav>
+
+
+<p id="edition" class="edition">LIMITED EDITION</p>
+<div class="slide">
+<div id="vv" class="gridlimitedition">
+<div class="slider">
+<img id="li4" class="limiteedition" src="images/watch2.png" alt="limite edition sport pic">
+</div>
+<div class="slider">
+<img id="li5" class="limiteedition" src="images/ring.png" alt="limite edition sport pic">
+</div>
+<div class="slider">
+<img class="limiteedition" src="images/neckless2.png" alt="limite edition sport pic">
+</div>
+<div class="slider"> 
+<img class="limiteedition" src="images/braclet.png" alt="limite edition sport pic">
+</div>
+<div class="slider">
+  <img id="li4" class="limiteedition" src="images/watch2.png" alt="limite edition sport pic">
+  </div>
+  <div class="slider">
+  <img id="li5" class="limiteedition" src="images/ring.png" alt="limite edition sport pic">
+  </div>
+  <div class="slider">
+  <img class="limiteedition" src="images/neckless2.png" alt="limite edition sport pic">
+  </div>
+  <div class="slider"> 
+  <img class="limiteedition" src="images/braclet.png" alt="limite edition sport pic">
+  </div>
+</div>
+</div>
+<div class="lastitems">
+<p class="ddesign">Drive your own Design</p>
+<p class="ddesign2">Offering various styles and multiple fabric options, we let you put a personal touch on your furniture</p>
+<button class="getstarted">GET STARTED</button>
+<h2 class="back-to-top"><a class="Retour" href="jewelery&accessories.html">Back to top</a></h2>
+<footer class="fooTer">
+  <div class="cont-ainer">
+      <div class="row">
+          <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                  <li><a href="about_us.html">about us</a></li>
+                  <li><a href="#">our services</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">affiliate program</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">shipping</a></li>
+                  <li><a href="#">returns</a></li>
+                  <li><a href="#">order status</a></li>
+                  <li><a href="#">payment options</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                  <li><a href="clothes.html">clothes</a></li>
+                  <li><a href="jewelery&accessories.html">jewelery</a></li>
+                  <li><a href="sports.html">sports</a></li>
+                  <li><a href="electronics.html">electronics</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+</div>
+<script>
+      function pages(){
+      const page = document.getElementById('thepages');
+      if (page.style.display == 'none') {
+        page.style.display = 'flex';
+        page.classList.add("thepages");
+      }
+      else{
+        page.style.display = 'none';
+      }
+    }
+
+</script>
+<script src="jewelry.js"></script>
+</body>
+</html> 

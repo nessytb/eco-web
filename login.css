@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.thepages{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    row-gap: 28px;
+    font-weight: bold;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(220, 220, 211);
+    top: 11%;
+    right: 34%;
+    z-index: 1000;
+  }
+  
+.page{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+form {
+    display: none;
+}
+form.active {
+    display: block;
+}
+label {
+    display: block;
+    margin-bottom: px;
+}
+.loogo{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-style: oblique;
+    position: absolute;
+  left: 52px;
+  top: 45px;
+  }
+  .circle {
+    top: 49px;
+    position: absolute;
+    left: 190px;
+    width: 32px; 
+    height: 32px;
+    background-color: orangered; 
+    border-radius: 50%; 
+  }
+  .nav-links{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    gap: 22%;
+    font-family: sans-serif;
+    left: 49%;
+    font-size: 21px;
+  }
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    display: block;
+    width: 567px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear,
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-inner-spin-button,
+input[type="password"]::-webkit-outer-spin-button {
+    display: none;
+}
+button[type="submit"] {
+    display: block;
+    width: 98%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 72px;
+}
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+
+}
+
+button[type="submit"] a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.toggle button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+form.active {
+    display: block;
+  }
+  
+  .toggle button.active {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+
+.pic{
+    position: relative;
+    height: 920px;
+    width: 100%;
+    left: 0px;
+}
+.home{
+  text-decoration: none;
+  color: white;
+
+}
+.login{
+    border: 2px solid white;
+    padding: 12px;
+}
+
+.toggleIcon {
+   
+  cursor: pointer;
+  margin-left: 8px;
+} 
+
+
+.inputStyle{
+
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 1px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+}
+.fa-envelope{
+    position: absolute;
+    top: 26%;
+    right: 111px;
+    transform: translateY(-50%);
+}
+.fa-eye-slash {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+.fa-eye {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+hr{
+   width: 90%;
+   border: 1px solid black;
+   margin-left: 0px;
+}
+.delete{
+  
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.pass{
+    margin-top: 53px;
+}
+
+.check{
+    margin-top: 43px;
+    
+    background-color: transparent;
+}
+.new{
+    margin-top: 43px;
+    margin-left: 59px;
+}
+.neww{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.remember{
+    position: absolute;
+    top: 348px;
+    left: 97px;
+}
+.fp{
+    position: absolute;
+    top: 348px;
+    left: 490px;
+}
+.titr{
+    margin-bottom: 43px;
+    margin-left: 20px;
+
+}
+.container{
+    position: absolute;
+    top: 159px;
+    left: 30%;
+    border: 2px solid white;
+    padding: 52px;
+    height: 528px;
+    width: 589px;
+    border-radius: 23px;
+    backdrop-filter: blur(11px);
+
+}
+#parag2{
+    display: none;
+    color: red;
+}
+.secondnav{
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1210px) {
+    input[type="email"],
+    input[type="password"],
+    input[type="text"],
+    button[type="submit"] {
+        font-size: 16px;
+    }
+    .container{
+        position: absolute;
+        top: 159px;
+        left: 20%;
+        border: 2px solid white;
+        padding: 52px;
+        height: 528px;
+        width: 589px;
+        border-radius: 23px;
+        backdrop-filter: blur(11px);
+    
+    }
+    .remember{
+        position: absolute;
+        top: 354px;
+        left: 97px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .fp{
+        position: absolute;
+        top: 318px;
+        left: 410px;
+    }
+    .remember{
+        position: absolute;
+        top: 314px;
+        left: 64px;
+    }
+    .thepages{
+        padding: 30px;
+        right: 358px;
+      }
+    .container{
+        position: absolute;
+        top: 159px;
+        left: 15%;
+        border: 1px solid white;
+        padding: 19px;
+        padding-left: 32px;
+        height: 530px;
+        width: 569px;
+        border-radius: 23px;
+        backdrop-filter: blur(11px);
+    
+    }
+    .navbar{
+        display: none;
+    }
+
+
+      .loogoo{
+        position: absolute;
+        top: 33px;
+        left: 22px;
+        text-decoration: none;
+        color: white;
+        font-size: 27px;
+        display: block;
+      }
+      .circlee{
+        display: block;
+        top: 35px;
+        position: absolute;
+        left: 133px;
+        width: 27px; 
+        height: 27px;
+        background-color: orangered;
+        border-radius: 50%; 
+    }
+      .fa-bars-staggered{
+        position: absolute;
+        top: 33px;
+        right: 4%;
+        visibility: visible;
+        color: white;
+        font-size: 25px;
+      }
+      .secondnav .fa-magnifying-glass{
+        position: absolute;
+        top: 37px;
+        left: 81%;
+        color: white;
+        font-size: 19px;
+      }
+      .secondnav{
+        display: block;
+      }
+      .liens{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        row-gap: 28px;
+        font-weight: bold;
+        padding-left: 155px;
+        padding-right: 155px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgb(220, 220, 211);
+        top: 7%;
+        right: 5%;
+        font-size: 22px;
+        z-index: 1000;
+      }
+      .hide{
+        display: none;
+      }
+      .lien{
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+      }
+      .fa-envelope{
+        position: absolute;
+        top: 24%;
+        right: 78px;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .container{
+        position: absolute;
+        left: 5%;
+    }
+    }

@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <script src="https://kit.fontawesome.com/088fc2cb61.js" crossorigin="anonymous"></script>
+  <title>ForShop | Login</title>
+</head>
+<body>
+  <img class="pic" src="images/chanel.webp" alt="home picture">
+  <nav class="navbar">
+    <div class="menu">
+      <div class="search-container">
+        <a class="loogo" href="home.html">ForShop</a>
+        <div class="circle"></div>
+      </div>
+      <div class="nav-links">
+        <a class="home homme" href="home.html">Home</a>
+        <a class="home" href="about_us.html">About</a>
+        <a class="home" onclick="pages()">Pages</a>
+        <a class="home login" href="login.html">Login</a>
+      </div>
+    </div>
+  </nav>
+  <div id="thepages" class="thepages">
+    <a class="page" href="jewelery&accessories.html">Jewelry</a>
+    <a class="page" href="clothes.html">Clothes</a>
+    <a class="page" href="sports.html">Sport</a>
+    <a class="page" href="electronics.html">Electronic</a>
+  </div>
+  <nav id="secondnav" class="secondnav">
+
+    <a class="loogoo" href="home.html">ForShop</a>
+    <div class="circlee"></div>
+    <i onclick="liens()" class="fa-solid fa-bars-staggered"></i>
+
+    <div id="liens" class="liens hide">
+    <a class="lien" href="home.html">Home</a>
+    <a class="lien" href="about_us.html">About</a>
+    <a class="lien" onclick="pages()">Pages</a>
+    <a class="lien" href="login.html">Login</a>
+    </div>
+    
+    </nav>
+  <div class="container">
+		<h1 class="titr">Login</h1>
+		<form id="client-form" class="active" action="" method="post">
+			<label for="client_email">Email</label>
+			<input  type="email" id="client_email" class="inputStyle" name="client_email" placeholder="your email" required><i class="fas fa-envelope"></i>
+      <hr>
+			<label class="pass" for="client_password">Password</label>
+      <div style="position: relative;">
+        <input type="password" id="client_password" name="client_password" placeholder="********" required>
+        <i id="eye" onclick="togglePasswordVisibility()" class="fas fa-eye-slash"></i>
+        <i id="eye2" onclick="togglePasswordVisibility()" class="fas fa-eye" style="display: none;"></i>
+      </div>
+      <hr>
+      <input class="check" type="checkbox" value="Checkout" >
+      <p class="remember">Remember me</p>
+      <p class="fp">Forget password?</p>
+			<button type="submit">Login</button>
+      <p class="new">Don't have an account? <a class="neww" href="sign_up.html"><span >Register</span></a></p>
+		</form>
+
+	</div>
+  <script>
+    function pages(){
+    const page = document.getElementById('thepages');
+    if (page.style.display == 'none') {
+      page.style.display = 'flex';
+      page.classList.add("thepages");
+    }
+    else{
+      page.style.display = 'none';
+    }
+  }
+</script>
+ <script src="home.js"></script> 
+</body>
+</html>

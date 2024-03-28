@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ForShop | home </title>
+	<script src="https://kit.fontawesome.com/4029073a58.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+  <img id="zs" class="pic" src="images/back.svg" alt="home picture">
+  <div class="card">
+    <h1>card</h1>
+    <ul class="listCard"></ul>
+    <a href="checkout.html" class="acheter">Buy now</a>
+    <div class="checkout">
+      <div class="total">0</div>
+      <div class="closeShopping">Close</div>
+    </div>
+  </div>
+  <nav id="navbar" class="navar">
+    <div class="menu">
+      <a class="loogo" href="home.html">ForShop</a>
+      <div class="circle"></div>
+      <div class="search-container">
+        <i onclick="toggleSearch()" class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="nav-links">
+        <a class="home homme" href="home.html">Home</a>
+        <a class="home" href="about_us.html">About</a>
+        <a class="home" onclick="pages()">Pages</a>
+        <a class="home" href="login.html">Login</a>
+      </div>
+    </div>  
+    <div class="cartt" ><i class="fa-solid fa-cart-shopping"></i><p class="count">0</p></div>    
+  </nav>
+  <div id="thepages" class="thepages">
+    <a class="page" href="jewelery&accessories.html">Jewelry</a>
+    <a class="page" href="clothes.html">Clothes</a>
+    <a class="page" href="sports.html">Sport</a>
+    <a class="page" href="electronics.html">Electronics</a>
+  </div>
+  <nav id="secondnav" class="secondnav">
+    <a class="loogoo" href="home.html">ForShop</a>
+    <div class="circlee"></div>
+    <i onclick="liens()" class="fa-solid fa-bars-staggered"></i>
+    <div class="search-container none">
+      <i onclick="toggleSearchh()" class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div id="liens" class="liens hide">
+      <a class="lien" href="home.html">Home</a>
+      <a class="lien" href="about_us.html">About</a>
+      <a class="lien" onclick="pages()">Pages</a>
+      <a class="lien" href="login.html">Login</a>
+    </div>
+    <div id="thepages" class="thepages">
+      <a class="page" href="jewelery&accessories.html">Jewelry</a>
+      <a class="page" href="clothes.html">Clothes</a>
+      <a class="page" href="sports.html">Sport</a>
+      <a class="page" href="electronics.html">Electronics</a>
+    </div>
+  </nav>
+  <div id="searchBar" class="search">
+    <input id="searchinput" class="type-search" placeholder="Type and hit enter to search EX: CORE FEATURES" >
+    <div class="circl">
+    <div class="delete" onclick="toggleSearch()">✕</div></div>
+  </div>
+  <div id="searchbar" class="search">
+    <input id="searchinputt" class="type-search" placeholder="Type and hit enter to search EX: CORE FEATURES" >
+    <div class="circl">
+    <div class="delete" onclick="toggleSearchh()">✕</div></div>
+  </div>
+  <svg viewBox="0 0 1024 1024" fill="#000000" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M360.066 975.804H8.214c-4.42 0-7.998-3.576-7.998-7.996s3.578-7.996 7.998-7.996h351.852c4.42 0 7.998 3.576 7.998 7.996s-3.578 7.996-7.998 7.996zM547.972 495.992a8.012 8.012 0 0 1-7.964-7.404l-11.996-159.916a8.02 8.02 0 0 1 7.386-8.576c4.36-0.374 8.232 2.984 8.576 7.388l11.994 159.916a8.018 8.018 0 0 1-7.386 8.576c-0.204 0.016-0.406 0.016-0.61 0.016z" fill="" /><path d="M8.23 975.804c-0.204 0-0.406 0-0.61-0.016a8.018 8.018 0 0 1-7.388-8.574l47.98-639.73c0.344-4.42 4.216-7.778 8.576-7.388a8.018 8.018 0 0 1 7.388 8.576L16.196 968.402a8.012 8.012 0 0 1-7.966 7.402z" fill="" /><path d="M120.168 336.074H56.194c-4.42 0-7.998-3.576-7.998-7.996s3.578-7.998 7.998-7.998h63.974c4.42 0 7.996 3.578 7.996 7.998s-3.576 7.996-7.996 7.996zM535.992 336.074H472.02c-4.42 0-7.996-3.576-7.996-7.996s3.576-7.998 7.996-7.998h63.972c4.422 0 7.998 3.578 7.998 7.998s-3.576 7.996-7.998 7.996zM392.052 336.074h-191.918c-4.42 0-7.998-3.576-7.998-7.996s3.578-7.998 7.998-7.998h191.918c4.42 0 7.998 3.578 7.998 7.998s-3.578 7.996-7.998 7.996zM360.066 927.826H56.194a7.994 7.994 0 0 1-7.998-7.998 7.994 7.994 0 0 1 7.998-7.996h303.872a7.994 7.994 0 0 1 7.998 7.996 7.994 7.994 0 0 1-7.998 7.998zM376.06 783.886H184.14a7.992 7.992 0 0 1-7.996-7.996 7.992 7.992 0 0 1 7.996-7.998h191.92a7.992 7.992 0 0 1 7.996 7.998 7.992 7.992 0 0 1-7.996 7.996z" fill="" /><path d="M184.14 783.886a7.964 7.964 0 0 1-3.248-0.688 8.008 8.008 0 0 1-4.062-10.558l63.974-143.94a7.992 7.992 0 0 1 10.558-4.06 8.008 8.008 0 0 1 4.062 10.558l-63.974 143.94a7.99 7.99 0 0 1-7.31 4.748zM379.622 719.898a7.996 7.996 0 0 1-7.31-4.75L336.764 635.2a8.008 8.008 0 0 1 4.06-10.558 7.988 7.988 0 0 1 10.558 4.06l35.548 79.952a8.006 8.006 0 0 1-4.062 10.558 7.984 7.984 0 0 1-3.246 0.686zM216.126 607.96a8.006 8.006 0 0 1-7.152-11.574l79.966-159.932a8.026 8.026 0 0 1 10.73-3.578 8.008 8.008 0 0 1 3.578 10.73L223.28 603.54a8.014 8.014 0 0 1-7.154 4.42z" fill="" /><path d="M376.06 607.96a8.018 8.018 0 0 1-7.154-4.422l-79.966-159.932a8.004 8.004 0 0 1 3.578-10.73 7.988 7.988 0 0 1 10.73 3.578l79.966 159.932a8.004 8.004 0 0 1-7.154 11.574z" fill="" /><path d="M376.06 607.96h-159.934c-4.42 0-7.996-3.578-7.996-7.998s3.576-7.996 7.996-7.996h159.934c4.42 0 7.996 3.576 7.996 7.996s-3.576 7.998-7.996 7.998z" fill="" /><path d="M280.1 863.852a7.992 7.992 0 0 1-7.998-7.996v-47.978a7.994 7.994 0 0 1 7.998-7.998 7.994 7.994 0 0 1 7.998 7.998v47.978a7.992 7.992 0 0 1-7.998 7.996z" fill="" /><path d="M312.086 863.852H280.1c-4.42 0-7.998-3.576-7.998-7.996s3.576-7.996 7.998-7.996h31.986c4.42 0 7.998 3.576 7.998 7.996s-3.578 7.996-7.998 7.996z" fill="" /><path d="M312.086 863.852a7.992 7.992 0 0 1-7.998-7.996v-47.978c0-4.42 3.578-7.998 7.998-7.998s7.998 3.578 7.998 7.998v47.978a7.992 7.992 0 0 1-7.998 7.996z" fill="" /><path d="M1015.792 975.804h-623.74c-4.42 0-7.996-3.576-7.996-7.996s3.576-7.996 7.996-7.996h623.738c4.42 0 7.998 3.576 7.998 7.996s-3.578 7.996-7.996 7.996z" fill="" /><path d="M1015.776 975.804a7.976 7.976 0 0 1-7.95-7.386L975.84 552.594a7.97 7.97 0 0 1 7.356-8.574c3.952-0.75 8.246 2.936 8.574 7.356L1023.758 967.2a7.972 7.972 0 0 1-7.358 8.574c-0.202 0.03-0.406 0.03-0.624 0.03zM392.068 975.804c-0.218 0-0.42 0-0.624-0.032a7.97 7.97 0 0 1-7.356-8.574l31.986-415.824c0.328-4.42 4.56-8.012 8.574-7.356a7.97 7.97 0 0 1 7.358 8.574l-31.988 415.824a7.98 7.98 0 0 1-7.95 7.388z" fill="" /><path d="M983.804 559.98H424.04a7.992 7.992 0 0 1-7.998-7.996 7.992 7.992 0 0 1 7.998-7.996h559.764a7.99 7.99 0 0 1 7.996 7.996 7.99 7.99 0 0 1-7.996 7.996zM967.812 927.826h-527.78a7.992 7.992 0 0 1-7.996-7.998 7.992 7.992 0 0 1 7.996-7.996h527.78a7.994 7.994 0 0 1 7.996 7.996 7.992 7.992 0 0 1-7.996 7.998z" fill="" /><path d="M703.922 783.886c-125.056 0-159.45-164.698-159.778-166.368a7.998 7.998 0 0 1 6.264-9.402c4.264-0.906 8.544 1.92 9.418 6.262 0.312 1.546 32.174 153.514 144.096 153.514 112.094 0 143.784-151.966 144.096-153.498 0.876-4.358 5.28-7.136 9.402-6.278a7.978 7.978 0 0 1 6.28 9.402c-0.328 1.672-34.722 166.368-159.778 166.368z" fill="" /><path d="M152.17 416.042c-0.234 0-0.454-0.016-0.688-0.032a7.986 7.986 0 0 1-7.292-8.636c1-12.042 26.05-294.956 151.904-294.956s150.906 282.912 151.904 294.956a7.986 7.986 0 0 1-7.292 8.636c-4.452 0.204-8.278-2.89-8.636-7.294-0.234-2.812-24.724-280.304-135.974-280.304-111.296 0-135.74 277.492-135.974 280.304a7.992 7.992 0 0 1-7.952 7.326z" fill="" /><path d="M967.812 528.01h-527.78a7.992 7.992 0 0 1-7.996-7.998 7.992 7.992 0 0 1 7.996-7.996h527.78a7.994 7.994 0 0 1 7.996 7.996 7.992 7.992 0 0 1-7.996 7.998z" fill="" /><path d="M520 304.088h-63.974c-4.42 0-7.998-3.576-7.998-7.996s3.578-7.998 7.998-7.998H520c4.42 0 7.996 3.578 7.996 7.998s-3.576 7.996-7.996 7.996z" fill="" /><path d="M136.16 304.088H72.188c-4.42 0-7.996-3.576-7.996-7.996s3.576-7.998 7.996-7.998H136.16c4.42 0 7.998 3.578 7.998 7.998s-3.576 7.996-7.998 7.996z" fill="" /><path d="M376.06 304.088h-159.934c-4.42 0-7.996-3.576-7.996-7.996s3.576-7.998 7.996-7.998h159.934c4.42 0 7.996 3.578 7.996 7.998s-3.576 7.996-7.996 7.996z" fill="" /><path d="M591.968 240.116c-52.914 0-95.958-43.044-95.958-95.96s43.044-95.96 95.958-95.96c52.916 0 95.96 43.044 95.96 95.96s-43.044 95.96-95.96 95.96z m0-175.928c-44.09 0-79.966 35.876-79.966 79.966s35.876 79.966 79.966 79.966c44.092 0 79.966-35.876 79.966-79.966s-35.874-79.966-79.966-79.966z" fill="" /><path d="M567.98 144.156c-13.23 0-23.99-10.76-23.99-23.99 0-13.228 10.76-23.99 23.99-23.99 13.228 0 23.988 10.76 23.988 23.99 0 13.228-10.76 23.99-23.988 23.99z m0-31.988c-4.406 0-7.998 3.592-7.998 7.998s3.592 7.998 7.998 7.998c4.402 0 7.996-3.592 7.996-7.998s-3.594-7.998-7.996-7.998zM615.958 192.134c-13.228 0-23.99-10.76-23.99-23.99 0-13.228 10.762-23.99 23.99-23.99s23.99 10.76 23.99 23.99c0.002 13.23-10.76 23.99-23.99 23.99z m0-31.986c-4.404 0-7.996 3.592-7.996 7.996s3.592 7.998 7.996 7.998 7.998-3.592 7.998-7.998-3.592-7.996-7.998-7.996z" fill="" /><path d="M552.486 192.634a7.994 7.994 0 0 1-5.654-13.65l79.466-79.466a7.992 7.992 0 0 1 11.306 0 7.994 7.994 0 0 1 0 11.308L558.14 190.292a7.97 7.97 0 0 1-5.654 2.342z" fill="" /><path d="M424.008 197.882a7.98 7.98 0 0 1-7.248-4.624 7.976 7.976 0 0 1 3.874-10.622c32.064-14.916 67.738-6.622 69.236-6.278a8.008 8.008 0 0 1 5.92 9.636c-1.016 4.294-5.294 6.904-9.636 5.918-0.282-0.062-31.876-7.308-58.772 5.216a7.788 7.788 0 0 1-3.374 0.754z" fill="" /><path d="M411.388 242.722c-11.276 0-23.396-0.828-36.454-2.686a7.996 7.996 0 0 1-6.794-9.042c0.624-4.388 4.748-7.31 9.042-6.794 105.082 14.978 144.394-41.576 146.016-43.996A7.976 7.976 0 0 1 534.272 178a7.958 7.958 0 0 1 2.248 11.042c-1.606 2.452-36.544 53.68-125.132 53.68z" fill="" /></svg>
+  <p id="par" class="title">FORSHOP WordPress Theme</p>
+  <p id="para" class="titlle">The Best Tool for you to build any Website!</p>
+  <div class="pages">
+    <img class="page1" src="images/page1.jpeg" alt="pages">
+    <img class="page2" src="images/page2.jpeg" alt="pages">
+    <img class="page3" src="images/page3.jpeg" alt="pages">
+    <img class="page4" src="images/page4.jpeg" alt="pages">
+    <img class="page5" src="images/page5.jpeg" alt="pages">
+  </div>
+  <img class="star-background" src="images/star-background.webp" alt="">
+  <img class="star2-background" src="images/star2-background.webp" alt="">
+  <img class="triangle-background" src="images/triangle-image.png" alt="">
+  <img class="circle-background" src="images/circle-image.png" alt="">
+  <p class="tit">PRE-BUILT DEMOS</p>
+  <div class="cate"> 
+    <button class="categ" onclick="filterProduct('All')">All ></button>
+    <button class="categ" onclick="filterProduct('Electronic')">Electronics ></button>
+    <button class="categ" onclick="filterProduct('Clothes')">Clothes ></button>
+    <button class="categ" onclick="filterProduct('Sports')">Sports ></button>
+    <button class="categ" onclick="filterProduct('Jewelry')">Jewelry ></button>
+  </div>
+  <div id="products"></div>
+  <div class="responsiveweb">
+  <div>
+    <p class="MobileOptimized">Mobile Optimized</p>
+    <p class="design">Design</p>
+    <p class="res">Each & every function of this amazing 
+     template will run<p class="res"> impeccably in almost
+     every device like - desktop, laptop, tablets and mobile phone.</p></p>
+  </div>
+  <div class="responsivee">
+    <div class="phone">
+      <div class="screen">
+        <img src="images/pageinphone.png" alt="Your Website">
+      </div>
+    </div>
+    <div class="pc">
+      <div class="pcscreen">
+        <img src="images/pageinpc.png" alt="Your Website">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <h1>CORE FEATURES</h1>
+  <div class="featured">
+    <div>
+      <img class="loader" src="images/loaderweb.webp" alt="smart loader"/>
+      <p class="featuredelements">Smart Loader</p>
+    </div>
+    <div>
+      <img class="resp" src="images/res.webp" alt="resposiveweb"/>
+      <p class="featuredelements">Responsive and Retina Ready</p>
+    </div>
+    <div>
+      <img class="ceo" src="images/ceo.png" alt="ceo optimize"/>
+      <p class="featuredelements">CEO Optimize</p>
+    </div>
+  </div>
+    
+  <h2><a class="back-to-top" href="home.html">Back to top</a></h2>
+  <footer class="fooTer">
+    <div class="cont-ainer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="about_us.html">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="clothes.html">clothes</a></li>
+                    <li><a href="jewelery&accessories.html">jewelery</a></li>
+                    <li><a href="sports.html">sports</a></li>
+                    <li><a href="electronics.html">electronics</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="home.js"></script>
+<script src="scroll.js"></script>
+</body>
+</html>

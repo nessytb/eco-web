@@ -1,0 +1,277 @@
+
+.navbar{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(146, 120, 120);
+ 
+}
+
+.thepages{
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  row-gap: 28px;
+  font-weight: bold;
+  padding-left: 155px;
+  padding-right: 155px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  top: 11%;
+  right: 14%;
+  z-index: 1000;
+}
+
+.page{
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+  text-align: center;
+}
+.home{
+  text-decoration: none;
+  color: black;
+
+}
+.loogo{
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  font-style: oblique;
+  position: absolute;
+  left: 52px;
+  top: 40px;
+}
+.circle {
+  top: 44px;
+  position: absolute;
+  left: 176px;
+  width: 32px; 
+  height: 32px;
+  background-color: orangered;
+  border-radius: 50%; 
+}
+.nav-links{
+	position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 6%;
+  gap: 15%;
+  font-family: sans-serif;
+  left: 50%;
+  font-size: 21px;
+  width: 25%;
+
+}
+
+.icon{
+	position: absolute;
+	animation-name: icon;
+	animation-delay: 0s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+	animation-timing-function: lineiere;
+  fill: black;
+	stroke-width: 221;
+	top: 2%;
+	left: 96%;
+	height: 90px;
+	width: 30px;
+
+}
+.fa-magnifying-glass{
+	position: absolute;
+	top: 6.7%;
+  cursor: pointer;
+	left: 88%;
+	height: 113px;
+	width: 53px;
+  color: black;
+
+}
+
+.paner{
+
+	position: absolute;
+	animation-name: paner;
+	animation-delay: 0s;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+	animation-timing-function: lineare;
+
+	stroke-width: 11;
+	top: 33px;
+	left: 1160px;
+	height: 650px;
+	width: 200px;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-column,
+.center-column {
+  flex-basis: 100%;
+  padding: 10px;
+}
+
+.left-column {
+  background-color: #f2f2f2;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.center-column {
+  
+
+  justify-items: right;
+  background-color: #e6e6e6;
+ margin-right: 0px;
+  
+}
+
+.left-column h2 {
+    margin-bottom: 10px;
+}
+
+.categories-list {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.categories-list li {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.categories-list a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+
+}
+.categories-list a:hover {
+  background-color: #333;
+
+  color: white;
+}
+
+.center-column img {
+    margin-bottom: 10px;
+   
+}
+
+.center-column h2 {
+    margin-bottom: 5px;
+    
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+@media (max-width: 768px) {
+.loogo{
+  position: absolute;
+  font-size: 28px;
+  left: 2.8%;
+  padding: 0;
+}
+.circle{
+  position: absolute;
+  top: 44px;
+  left: 133px;
+  width: 30px;
+  height: 30px;
+}
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .menu {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .menu.show {
+    display: block;
+  }
+
+  .search-container {
+    margin: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    width: auto;
+    align-items: center;
+  }
+
+  .search-container {
+    margin: 0;
+    width: 500px;
+  }
+  .left-column,
+  .center-column,
+  .right-column {
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+  }
+
+  .right-column {
+    margin-right: 0;
+  }
+}

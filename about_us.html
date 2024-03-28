@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <script src="https://kit.fontawesome.com/088fc2cb61.js" crossorigin="anonymous"></script>
+  <title>ForShop | About Us</title>
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <div class="menu">
+      <a class="loogo" href="home.html">ForShop</a>
+      <div class="circle"></div>
+      <div class="search-container">
+      </div>
+      <div class="nav-links">
+        <a class="home homme" href="home.html">Home</a>
+        <a class="home" href="about_us.html">About</a>
+        <a class="home" onclick="pages()">Pages</a>
+        <a class="home" href="login.html">Login</a>
+      </div>
+    </div>      
+    <div id="thepages" class="thepages">
+        <a class="page" href="jewelery&accessories.html">Jewelry</a>
+        <a class="page" href="clothes.html">Clothes</a>
+        <a class="page" href="sports.html">Sport</a>
+        <a class="page" href="electronics.html">Electronic</a>
+    </div>
+  </nav>
+
+   <div class="img1">
+<p>A site that is an electronic buying and selling site for your needs. We provide you with all the suitable and comfortable products for you. We also provide services to sell all your needs on our website, ForShop</p> <br> <a href="about_us_client.html">read more..</a>
+ 
+   </div>
+  
+       <img src="images/c1.png" >     
+   <script>
+        function pages(){
+      const page = document.getElementById('thepages');
+      if (page.style.display == 'none') {
+        page.style.display = 'flex';
+        page.classList.add("thepages");
+      }
+      else{
+        page.style.display = 'none';
+      }
+    }
+   </script> 
+
+</body>
+</html>
