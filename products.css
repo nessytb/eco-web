@@ -639,7 +639,11 @@ a{
   visibility: hidden;
 }
 }
-
+.list{
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 1.5em;
+  margin-left: 5%; 
+}
 .image12 {
   width: 710px;
   height: 610px;
@@ -1030,7 +1034,7 @@ img:hover{
 }
 .image15{
   position: absolute;
-  left: 2%;
+  left: -4%;
   top: 2369px;
   height: 492px;
   width: 492px;
