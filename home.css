@@ -917,7 +917,7 @@ h1{
 }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 480px) {
   .title{
     font-size: 38px;
   }
@@ -1040,12 +1040,6 @@ h1{
     width: 100%;
     height: 745px;
   }
-
-  #products{
-    grid-template-columns: auto auto;
-    grid-column-gap: 1em;
-    margin-left: 43px;
-  }
   .loogoo{
     position: absolute;
     top: 33px;
@@ -1126,7 +1120,7 @@ h1{
   width: 205px;
   position: absolute;
   top: 2300px;
-  left: 73%;
+  left: 53%;
   z-index: -1000;
 }
 .star2-background{
@@ -1134,7 +1128,7 @@ h1{
   width: 205px;
   position: absolute;
   top: 770px;
-  left: 73%;
+  left: 53%;
   z-index: -1000;
 }
 .circle-background{
@@ -1142,7 +1136,7 @@ h1{
   width: 205px;
   position: absolute;
   top: 3170px;
-  left: 60%;
+  left: 40%;
   z-index: -1000;
 }
 .back-to-top{
