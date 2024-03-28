@@ -1154,15 +1154,12 @@ display: none;
 .none{
   display: none;
 }
-@media screen and (max-width: 720px){
 
+@media screen and (max-width: 760px) {
   #products{
     grid-template-columns: auto auto;
     grid-column-end: 1em;
   }
-  
-}
-@media screen and (max-width: 900px) {
   .modal {
     display: none;
     position: fixed;
@@ -1374,13 +1371,6 @@ display: none;
   .navbar{
     display: none;
     visibility: hidden;
-  }
-
-  #products{
-    grid-template-columns: auto auto;
-    grid-column-gap: 1em;
-    margin-left: 43px;
-    
   }
 
   .loogoo{
