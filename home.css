@@ -1,3 +1,7 @@
+body {
+    zoom: 80%;
+}
+
 *{
   box-sizing: border-box;
   scrollbar-width: thin;
