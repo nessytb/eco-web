@@ -1,7 +1,4 @@
-body{
-   zoom: 80%;
- }
- *{
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -668,6 +665,7 @@ padding-top: 30px;
   }
 
   body {
+    zoom: 80%;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -732,7 +730,7 @@ padding-top: 30px;
     width: 400px;
     z-index: 10000;
     background-color:  rgb(167, 150, 150);
-    height: 100vh;
+    height: 100%;
     transition: 0.5s;
   }
   .panier h1{
