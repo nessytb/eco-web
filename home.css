@@ -456,7 +456,7 @@ h1{
 }
 #products{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   column-gap: 1px;
   row-gap: 9px;
   margin-top: 5%;
