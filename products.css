@@ -310,7 +310,6 @@ a:hover{
 }
 
 .list .item{ 
-  zoom: 80%;
   border-radius: 4px;  
   width: 402px;  
   height: 502px;  
@@ -745,7 +744,7 @@ a{
 .image15 {
   width: 325px;
   height: 282px;
-  padding-left: 50px;
+  padding-left: 5px;
   padding-top: 30px;
 }
 .image {
