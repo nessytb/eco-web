@@ -1067,7 +1067,7 @@ display: none;
   color: black;
   font-size: 22px;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 480px) {
   .modal {
     display: none;
     position: fixed;
@@ -1226,6 +1226,8 @@ display: none;
     animation-timing-function: linear;
   }
 .image{
+    grid-template-columns: auto ;
+    margin-left: 43px;
 }
 .star-background{
   height: 205px;
