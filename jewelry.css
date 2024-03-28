@@ -920,7 +920,7 @@ img{
   width: 400px;
   z-index: 10000;
   background-color:  rgb(167, 150, 150);
-  height: 100vh;
+  height: 100%;
   transition: 0.5s;
 }
 .card h1{
@@ -1155,7 +1155,7 @@ display: none;
   display: none;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 860px) {
   #products{
     grid-template-columns: auto auto;
     grid-column-end: 1em;
