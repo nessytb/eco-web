@@ -149,7 +149,7 @@
 	animation-direction: normal;
 	animation-timing-function: lineare;
 	stroke-width: 11;
-	top: 7px;
+	top: 33px;
 	left: 1160px;
 	height: 650px;
 	width: 200px;
@@ -641,7 +641,7 @@ h1{
 .modal img {
   margin-top: 22px;
   max-width: 50%;
-  height: 690px;
+  height: 490px;
   margin-left: 2%;
 }
 .close{
