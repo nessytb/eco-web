@@ -1226,8 +1226,66 @@ display: none;
     animation-timing-function: linear;
   }
 .image{
-    grid-template-columns: auto ;
-    margin-left: 43px;
+  .image12{
+    position: absolute;
+    left:10%;
+    top: 799px;
+    height: 492px;
+    width: 492px;
+  }
+  .image13{
+    position: absolute;
+    left:10%;
+    top: 1329px;
+    height: 492px;
+    width: 492px;
+  }
+  .image14{
+    position: absolute;
+    left:10%;
+    top: 1829px;
+    height: 492px;
+    width: 492px;
+  }
+  .image15{
+    position: absolute;
+    left: 2%;
+    top: 2369px;
+    height: 492px;
+    width: 492px;
+  }
+  .collection1{
+    text-transform: uppercase;
+    position: absolute;
+    left:10%;
+    top: 1119px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.collection2{
+    text-transform: uppercase;
+    position: absolute;
+    left:10%;
+    top: 1629px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.collection3{
+    text-transform: uppercase;
+    position: absolute;
+    left:10%;
+    top: 2129px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gifts {
+  text-transform: uppercase;
+  position: absolute;
+  top: 2703PX;
+  left: 10%;
+  font-size: 49px;
+  font-weight: bold;
 }
 .star-background{
   height: 205px;
@@ -1385,7 +1443,7 @@ display: none;
 
 }
 
-@media screen and (max-width: 1100px) {
+@media only screen and (max-width: 760px) {
   .modal {
     display: none;
     position: fixed;
