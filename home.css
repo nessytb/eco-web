@@ -781,7 +781,7 @@ h1{
   justify-content: center;
   justify-content: space-between;
   }
-@media only screen and (min-width: 1050px) and (max-width: 1700px) {
+@media only screen and (min-width: 1050px) {
   .modal {
     display: none;
     position: fixed;
