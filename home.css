@@ -456,7 +456,7 @@ h1{
 }
 #products{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   column-gap: 1px;
   row-gap: 9px;
   margin-top: 5%;
@@ -785,7 +785,7 @@ h1{
   justify-content: center;
   justify-content: space-between;
   }
-@media only screen and (min-width: 1050px) and (max-width: 1700px) {
+@media screen and (max-width: 900px) {
   .modal {
     display: none;
     position: fixed;
