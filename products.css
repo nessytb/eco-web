@@ -310,6 +310,7 @@ a:hover{
 }
 
 .list .item{ 
+  zoom: 80%;
   border-radius: 4px;  
   width: 402px;  
   height: 502px;  
