@@ -1067,7 +1067,7 @@ display: none;
   color: black;
   font-size: 22px;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
   .modal {
     display: none;
     position: fixed;
