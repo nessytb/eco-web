@@ -5,7 +5,9 @@
   scrollbar-width: thin;
   scrollbar-color: #fff;
  }
- 
+ body{
+   zoom: 80%;
+ }
  .fooTer{
 	z-index: 1;
     margin-left: 0;
