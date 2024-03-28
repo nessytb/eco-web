@@ -1,10 +1,10 @@
+body {
+    zoom: 70%; 
+}
 *{
   box-sizing: border-box;
   scrollbar-width: thin;
   scrollbar-color: #fff;
-}
-body {
-    zoom: 70%; 
 }
 .fooTer{
 	z-index: 1;
@@ -101,7 +101,7 @@ body {
   border-radius: 50%;
 }
 .nav-links{
-  position: absolute;
+	position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +121,7 @@ body {
 	animation-fill-mode: forwards;
 	animation-direction: normal;
 	animation-timing-function: lineiere;
-        fill: black;
+  fill: black;
 	stroke-width: 221;
 	top: 2%;
 	left: 96%;
@@ -131,11 +131,11 @@ body {
 .fa-magnifying-glass{
 	position: absolute;
 	top: 6.7%;
-        cursor: pointer;
+  cursor: pointer;
 	left: 88%;
 	height: 113px;
 	width: 53px;
-        color: black;
+  color: black;
 }
 .screen img,
 .pcscreen img {
@@ -152,7 +152,7 @@ body {
 	animation-direction: normal;
 	animation-timing-function: lineare;
 	stroke-width: 11;
-	top: 13px;
+	top: 33px;
 	left: 1160px;
 	height: 650px;
 	width: 200px;
@@ -784,7 +784,7 @@ h1{
   justify-content: center;
   justify-content: space-between;
   }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1050px) and (max-width: 1700px) {
   .modal {
     display: none;
     position: fixed;
@@ -916,7 +916,7 @@ h1{
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1050px) {
   .title{
     font-size: 38px;
   }
@@ -1217,7 +1217,6 @@ h1{
     margin-top: 260%;
   } 
 }
-
 
 
 
