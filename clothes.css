@@ -1225,67 +1225,7 @@ display: none;
     animation-direction: normal;
     animation-timing-function: linear;
   }
-
-  .image12{
-    position: absolute;
-    left:5%;
-    top: 699px;
-    height: 392px;
-    width: 392px;
-  }
-  .image13{
-    position: absolute;
-    left:5%;
-    top: 1129px;
-    height: 392px;
-    width: 392px;
-  }
-  .image14{
-    position: absolute;
-    left:10%;
-    top: 1629px;
-    height: 392px;
-    width: 392px;
-  }
-  .image15{
-    position: absolute;
-    left: 2%;
-    top: 2169px;
-    height: 392px;
-    width: 392px;
-  }
-  .collection1{
-    text-transform: uppercase;
-    position: absolute;
-    left:5%;
-    top: 919px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.collection2{
-    text-transform: uppercase;
-    position: absolute;
-    left:5%;
-    top: 1429px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.collection3{
-    text-transform: uppercase;
-    position: absolute;
-    left:5%;
-    top: 1929px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.gifts {
-  text-transform: uppercase;
-  position: absolute;
-  top: 2503PX;
-  left: 5%;
-  font-size: 49px;
-  font-weight: bold;
+.image{
 }
 .star-background{
   height: 205px;
