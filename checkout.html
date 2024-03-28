@@ -74,6 +74,17 @@
       <button type="submit" class="submit-btn">Validate the order</button>
     </form>
   </div>
-
+    <script>
+    function pages(){
+      const page = document.getElementById('thepages');
+      if (page.style.display == 'none') {
+        page.style.display = 'flex';
+        page.classList.add("thepages");
+      }
+      else{
+        page.style.display = 'none';
+      }
+    }
+    </script>
 </body>
 </html>
