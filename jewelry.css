@@ -1162,7 +1162,7 @@ display: none;
   }
   
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 900px) {
   .modal {
     display: none;
     position: fixed;
@@ -1482,7 +1482,7 @@ display: none;
 }
 }
 
-@media only screen and (min-width: 1050px) and (max-width: 1700px) {
+@media only screen and (max-width: 900px) {
   .modal {
     display: none;
     position: fixed;
