@@ -1,3 +1,6 @@
+body{
+   zoom: 80%;
+ }
  *{
   box-sizing: border-box;
   margin: 0;
@@ -5,9 +8,7 @@
   scrollbar-width: thin;
   scrollbar-color: #fff;
  }
- body{
-   zoom: 80%;
- }
+ 
  .fooTer{
 	z-index: 1;
     margin-left: 0;
@@ -1067,7 +1068,7 @@ display: none;
   color: black;
   font-size: 22px;
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1050px) {
   .modal {
     display: none;
     position: fixed;
@@ -1141,7 +1142,7 @@ display: none;
   .loogoo{
     position: absolute;
     top: 33px;
-    left: 22px;
+    left: 15px;
     text-decoration: none;
     color: black;
     font-size: 27px;
@@ -1151,7 +1152,7 @@ display: none;
     display: block;
     top: 35px;
     position: absolute;
-    left: 122px;
+    left: 115px;
     width: 27px; 
     height: 27px;
     background-color: orangered; 
@@ -1225,7 +1226,7 @@ display: none;
     animation-direction: normal;
     animation-timing-function: linear;
   }
-.image{
+
   .image12{
     position: absolute;
     left:10%;
@@ -1336,7 +1337,7 @@ display: none;
   }
   .trendy{
     position: absolute;
-    top: 1780px;
+    top: 2880px;
     left: 30%;
   }
 .slide{
@@ -1443,7 +1444,7 @@ display: none;
 
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (min-width: 1050px) and (max-width: 1700px) {
   .modal {
     display: none;
     position: fixed;
@@ -1642,4 +1643,3 @@ display: none;
   z-index: -1000;
 }
 }
-
