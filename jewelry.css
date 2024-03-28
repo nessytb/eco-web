@@ -1250,17 +1250,13 @@ display: none;
 
   .wrapper{
     position: absolute;
-    top: 2325px;
+    top: 2225px;
   }
   .edition{
     margin-top: 2600px;
     left: 30%;
   }
 
-  .slide{
-    margin-top: 20px;
-    height: 394px;
-  }
   .ddesign{
    text-align: center;
    font-size: 39px;
@@ -1318,12 +1314,6 @@ display: none;
     border: none;
     width: 72px;
     height: 2px;
-  }
-  .trendy{
-    margin-top: 1000px;
-  }
-  .wrapper{
-    margin-top: 1000px;
   }
 .featuredproduct{
   display: flex;
@@ -1427,12 +1417,12 @@ display: none;
 
   .trendy{
     position: absolute;
-    top: 2980px;
+    top: 2780px;
     left: 30%;
   }
   .slide{
     position: absolute;
-    top: 5733px;
+    top: 5533px;
   }
 
   .hide{
