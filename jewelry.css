@@ -1175,7 +1175,7 @@ display: none;
     cursor: pointer;
   }
   .modal h2 {
-    margin-left: 5.5%;
+    margin-left: 1%;
     font-size: 27px;
     margin-top: 13px;
     font-family:  sans-serif;
@@ -1195,12 +1195,12 @@ display: none;
   }
   .button1{
     position: absolute;
-    left: 43%;
+    left: 23%;
     top: 740px;
   }
   .button2{
     position: absolute;
-    left: 19%;
+    left: 1%;
     top: 740px;
   }
   
