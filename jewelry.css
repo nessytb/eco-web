@@ -8,6 +8,7 @@
 body {
     margin: 0;
     padding: 0;
+    zoom: 80%;
     background-color: rgb(233, 233, 225);
   }
 .fooTer{
