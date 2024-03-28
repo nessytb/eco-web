@@ -1293,7 +1293,7 @@ display: none;
   width: 205px;
   position: absolute;
   top: 2300px;
-  left: 73%;
+  left: 3%;
   z-index: -1000;
 }
 .star2-background{
@@ -1301,7 +1301,7 @@ display: none;
   width: 205px;
   position: absolute;
   top: 770px;
-  left: 73%;
+  left: 53%;
   z-index: -1000;
 }
 .circle-background{
@@ -1309,7 +1309,7 @@ display: none;
   width: 205px;
   position: absolute;
   top: 3170px;
-  left: 60%;
+  left: 40%;
   z-index: -1000;
 }
 
