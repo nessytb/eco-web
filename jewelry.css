@@ -1155,7 +1155,7 @@ display: none;
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 760px) {
   #products{
     grid-template-columns: auto auto;
     grid-column-end: 1em;
@@ -1288,7 +1288,6 @@ display: none;
   .categories{
     display: flex;
     flex-direction: column;
-    row-gap: 28px;
     margin-left: 5%;
     row-gap: 20px;
     margin-top: 50px;
