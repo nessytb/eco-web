@@ -258,30 +258,11 @@ hr{
     }
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .fp{
         position: absolute;
         top: 318px;
         left: 410px;
-    }
-    .thepages{
-        padding: 30px;
-        right: 358px;
-      }
-    .container{
-        position: absolute;
-        top: 159px;
-        left: 15%;
-        border: 1px solid white;
-        padding: 19px;
-        padding-left: 32px;
-        padding-right: 0;
-        padding-bottom: 92px;
-        height: 599px;
-        width: 569px;
-        border-radius: 23px;
-        backdrop-filter: blur(11px);
-    
     }
     .navbar{
         display: none;
@@ -356,9 +337,7 @@ hr{
     .fa-eye-slash{       
         margin-right: -29px;
     }
-}
-@media screen and (max-width: 700px) {
-.container{
+    .container{
     position: absolute;
     top: 159px;
     left: 5%;
@@ -368,7 +347,7 @@ hr{
     padding-right: 0;
     padding-bottom: 92px;
     height: 529px;
-    width: 489px;
+    width: 339px;
     border-radius: 23px;
     backdrop-filter: blur(11px);
 
@@ -379,3 +358,4 @@ hr{
         right: 288px;
       }
 }
+
