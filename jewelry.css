@@ -256,7 +256,7 @@ a:hover{
   left: 100%;
   width: 400px;
   background-color: #453E3B;
-  height: 100%;
+  height: 100vh;
   transition: 0.5s;
 }
 .card h1{
@@ -1217,8 +1217,9 @@ display: none;
     height: 775px;
   }
   .thepages{
+    z-index: 40000;
     padding: 30px;
-    right: 358px;
+    right: 308px;
   }
   .liens{
     position: absolute;
