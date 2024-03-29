@@ -283,7 +283,7 @@ hr{
     .fp{
         position: absolute;
         top: 318px;
-        left: 410px;
+        left: 210px;
     }
     .remember{
         position: absolute;
@@ -302,7 +302,7 @@ hr{
         padding: 19px;
         padding-left: 32px;
         height: 530px;
-        width: 369px;
+        width: 419px;
         border-radius: 23px;
         backdrop-filter: blur(11px);
     
