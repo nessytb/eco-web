@@ -913,16 +913,7 @@ img{
   color: orange;
 
 }
-.card{
-  position: fixed;
-  top: 0px;
-  left: 100%;
-  width: 400px;
-  z-index: 10000;
-  background-color:  rgb(167, 150, 150);
-  height: 100%;
-  transition: 0.5s;
-}
+
 .card h1{
   color: blanchedalmond;
   margin-top: 72px;
