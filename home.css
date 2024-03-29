@@ -1211,6 +1211,9 @@ h1{
     margin-left: 10%;
     margin-top: 260%;
   } 
+  .card{
+     height: 100vh;
+  }
 }
 
 
