@@ -279,8 +279,9 @@ body {
       height: 30px;
     }
 .checkout {
-    width: 1300%;
+    width: 2000%;
     margin-top: 890px;
+    margin-right: 2%;
     margin-left: 2%;
     padding: 1rem;
     border: 1px solid #ccc;
