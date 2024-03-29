@@ -278,4 +278,13 @@ body {
       width: 30px;
       height: 30px;
     }
+.checkout {
+    width: 1060px;
+    margin-top: 90px;
+    margin-right: 2%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 30px;
+  }
   }
