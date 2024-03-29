@@ -1150,7 +1150,7 @@ display: none;
     display: block;
     top: 35px;
     position: absolute;
-    left: 115px;
+    left: 125px;
     width: 27px; 
     height: 27px;
     background-color: orangered; 
@@ -1167,7 +1167,7 @@ display: none;
   .secondnav .fa-magnifying-glass{
     position: absolute;
     top: 13px;
-    left: 77%;
+    left: 70%;
   }
 
   .sportparag{
