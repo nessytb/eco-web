@@ -1114,7 +1114,7 @@ display: none;
   
   .modal img {
     margin-top: 52px;
-    max-width: 100%;
+    max-width: 80%;
     height: 550px;
     margin-left: 2%;
   }
@@ -1230,27 +1230,27 @@ display: none;
     left:10%;
     top: 799px;
     height: 492px;
-    width: 492px;
+    width: 472px;
   }
   .image13{
     position: absolute;
     left:2%;
     top: 1329px;
-    height: 492px;
+    height: 472px;
     width: 492px;
   }
   .image14{
     position: absolute;
     left:10%;
     top: 1829px;
-    height: 492px;
+    height: 472px;
     width: 492px;
   }
   .image15{
     position: absolute;
     left: 2%;
     top: 2369px;
-    height: 492px;
+    height: 472px;
     width: 492px;
   }
   .collection1{
