@@ -919,7 +919,7 @@ img{
   top: 0px;
   left: 100%;
   width: 400px;
-  background-color: #453E3B;
+  background-color: rgb(167, 150, 150);
   height: 100vh;
   transition: 0.5s;
 }
