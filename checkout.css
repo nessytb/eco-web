@@ -281,8 +281,8 @@ body {
 .checkout {
     width: 2000%;
     margin-top: 890px;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 4%;
+    margin-left: 0;
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
