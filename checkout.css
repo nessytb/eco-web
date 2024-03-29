@@ -63,14 +63,14 @@ body {
   border-radius: 50%; 
 }
 .nav-links{
-	position: absolute;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   top: 6%;
   gap: 15%;
   font-family: sans-serif;
-  left: 50%;
+  left: 60%;
   font-size: 21px;
   width: 25%;
 
