@@ -291,8 +291,9 @@ hr{
         left: 64px;
     }
     .thepages{
+        z-index: 1000;
         padding: 30px;
-        right: 308px;
+        right: 288px;
       }
     .container{
         position: absolute;
