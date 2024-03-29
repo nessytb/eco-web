@@ -730,7 +730,7 @@ padding-top: 30px;
     width: 400px;
     z-index: 10000;
     background-color:  rgb(167, 150, 150);
-    height: 10vh;
+    height: 100vh;
     transition: 0.5s;
   }
   .panier h1{
