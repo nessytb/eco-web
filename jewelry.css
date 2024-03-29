@@ -1250,7 +1250,7 @@ display: none;
 
   .wrapper{
     position: absolute;
-    top: 3800px;
+    top: 4100px;
   }
   .edition{
     margin-top: 2600px;
@@ -1417,12 +1417,12 @@ display: none;
 
   .trendy{
     position: absolute;
-    top: 3480px;
+    top: 3880px;
     left: 30%;
   }
   .slide{
     position: absolute;
-    top: 5933px;
+    top: 6233px;
   }
 
   .hide{
