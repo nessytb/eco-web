@@ -291,7 +291,7 @@ hr{
         left: 64px;
     }
     .thepages{
-        z-index: 1000;
+        z-index: 1000000;
         padding: 30px;
         right: 288px;
       }
