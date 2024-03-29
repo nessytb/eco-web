@@ -1571,8 +1571,8 @@ display: none;
   .collection1{
     text-transform: uppercase;
     position: absolute;
-    left:10%;
-    top: 1119px;
+    left:4%;
+    top: 1009px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -1580,7 +1580,7 @@ display: none;
     text-transform: uppercase;
     position: absolute;
     left:60%;
-    top: 1129px;
+    top: 1009px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
