@@ -959,7 +959,7 @@ h1{
   }
   .button1{
     position: absolute;
-    left: 55%;
+    left: 50%;
     top: 740px;
   }
   .button2{
@@ -969,7 +969,7 @@ h1{
   }
   .modal img {
     margin-top: 52px;
-    max-width: 100%;
+    max-width: 80%;
     height: 550px;
     margin-left: 2%;
   }
@@ -1081,7 +1081,7 @@ h1{
   }
   .fa-bars-staggered{
     position: absolute;
-    top: 33px;
+    top: 30px;
     right: 4%;
     visibility: visible;
     color: black;
