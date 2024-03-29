@@ -914,6 +914,7 @@ img{
 
 }
 .card{
+  z-index: 500000;
   position: fixed;
   top: 0px;
   left: 100%;
