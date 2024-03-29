@@ -1195,7 +1195,7 @@ display: none;
   }
   .button1{
     position: absolute;
-    left: 23%;
+    left: 33%;
     top: 740px;
   }
   .button2{
@@ -1207,7 +1207,7 @@ display: none;
   
   .modal img {
     margin-top: 52px;
-    max-width: 100%;
+    max-width: 85%;
     height: 550px;
     margin-left: 2%;
   }
