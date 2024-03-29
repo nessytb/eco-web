@@ -726,11 +726,11 @@ padding-top: 30px;
   .panier{
     position: fixed;
     top: 0px;
-    left: 100vh;
+    left: 100%;
     width: 400px;
     z-index: 10000;
     background-color:  rgb(167, 150, 150);
-    height: 100%;
+    height: 10vh;
     transition: 0.5s;
   }
   .panier h1{
