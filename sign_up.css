@@ -373,4 +373,9 @@ hr{
     backdrop-filter: blur(11px);
 
 }
+    .thepages{
+        z-index: 1000000;
+        padding: 30px;
+        right: 288px;
+      }
 }
