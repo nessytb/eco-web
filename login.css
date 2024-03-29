@@ -279,7 +279,7 @@ hr{
         left: 97px;
     }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
     .fp{
         position: absolute;
         top: 318px;
@@ -297,12 +297,12 @@ hr{
     .container{
         position: absolute;
         top: 159px;
-        left: 15%;
+        left: 5%;
         border: 1px solid white;
         padding: 19px;
         padding-left: 32px;
         height: 530px;
-        width: 569px;
+        width: 369px;
         border-radius: 23px;
         backdrop-filter: blur(11px);
     
@@ -380,9 +380,4 @@ hr{
     }
 
 }
-@media screen and (max-width: 700px) {
-    .container{
-        position: absolute;
-        left: 5%;
-    }
-    }
+
